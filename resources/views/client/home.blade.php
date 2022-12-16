@@ -38,7 +38,6 @@
                 </a>
             </div>
             <div class="auth">
-
                 @guest
                     <button type="button" class="btn-acc">
                         <a href="{{ route('register') }}">Đăng Nhập <i class="fa-regular fa-user"></i></a>
